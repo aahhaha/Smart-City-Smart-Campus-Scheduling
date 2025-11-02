@@ -1,0 +1,69 @@
+# ===========================================
+# Java + Maven + IntelliJ + Python project
+# Assignment 4 — Smart City / Smart Campus
+# ===========================================
+
+# --- Maven build directories ---
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# --- IntelliJ IDEA project files ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# --- VSCode / JetBrains cache ---
+.vscode/
+.cache/
+*.swp
+*.swo
+
+# --- System / OS files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Logs and temporary outputs ---
+*.log
+*.tmp
+*.bak
+*.class
+*.out
+*.csv
+*.tsv
+
+# --- JSON dataset files ---
+data/*.json
+
+# --- Python analysis (graphs + metrics) ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+metrics_log.txt
+Graphs.xlsx
+Figure_1.png
+Figure_2.png
+
+# --- Reports and generated outputs ---
+*.pdf
+*.docx
+*.pptx
+*.zip
+
+# --- OS specific ---
+# macOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Thumbs.db
