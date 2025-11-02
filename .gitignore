@@ -1,69 +1,38 @@
-# ===========================================
-# Java + Maven + IntelliJ + Python project
-# Assignment 4 — Smart City / Smart Campus
-# ===========================================
-
-# --- Maven build directories ---
 target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-release.properties
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-# --- IntelliJ IDEA project files ---
-.idea/
+### IntelliJ IDEA ###
+.idea/modules.xml
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/libraries/
+*.iws
 *.iml
 *.ipr
-*.iws
-out/
 
-# --- VSCode / JetBrains cache ---
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
 .vscode/
-.cache/
-*.swp
-*.swo
 
-# --- System / OS files ---
+### Mac OS ###
 .DS_Store
-Thumbs.db
-desktop.ini
-
-# --- Logs and temporary outputs ---
-*.log
-*.tmp
-*.bak
-*.class
-*.out
-*.csv
-*.tsv
-
-# --- JSON dataset files ---
-data/*.json
-
-# --- Python analysis (graphs + metrics) ---
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.venv/
-venv/
-env/
-metrics_log.txt
-Graphs.xlsx
-Figure_1.png
-Figure_2.png
-
-# --- Reports and generated outputs ---
-*.pdf
-*.docx
-*.pptx
-*.zip
-
-# --- OS specific ---
-# macOS
-.AppleDouble
-.LSOverride
-
-# Windows
-ehthumbs.db
-Thumbs.db

@@ -1,0 +1,9 @@
+data/small-01.json | V=6 | E=6 | SCC=6 | total=5429800 | Tarjan=1933100 | DAG=1173700 | SP=2323000 | dfsVisit=6 | dfsEdge=6 | qPush=6 | qPop=6 | relax=12 | CritPath=10
+data/small-02.json | V=7 | E=7 | SCC=5 | total=4502100 | Tarjan=2183400 | DAG=1166700 | SP=1152000 | dfsVisit=7 | dfsEdge=7 | qPush=5 | qPop=5 | relax=8 | CritPath=10
+data/small-03.json | V=8 | E=8 | SCC=6 | total=3526000 | Tarjan=1645200 | DAG=793200 | SP=1087600 | dfsVisit=8 | dfsEdge=8 | qPush=6 | qPop=6 | relax=8 | CritPath=7
+data/medium-01.json | V=12 | E=12 | SCC=8 | total=4871700 | Tarjan=1266600 | DAG=1173700 | SP=2323000 | dfsVisit=12 | dfsEdge=12 | qPush=8 | qPop=8 | relax=12 | CritPath=11
+data/medium-02.json | V=15 | E=15 | SCC=15 | total=4141400 | Tarjan=2183400 | DAG=1166700 | SP=1152000 | dfsVisit=15 | dfsEdge=15 | qPush=15 | qPop=15 | relax=29 | CritPath=18
+data/medium-03.json | V=18 | E=19 | SCC=14 | total=4267300 | Tarjan=1645200 | DAG=793200 | SP=1087600 | dfsVisit=18 | dfsEdge=19 | qPush=14 | qPop=14 | relax=26 | CritPath=27
+data/large-01.json | V=20 | E=19 | SCC=20 | total=5387400 | Tarjan=2066600 | DAG=1173700 | SP=2323000 | dfsVisit=20 | dfsEdge=19 | qPush=20 | qPop=20 | relax=38 | CritPath=20
+data/large-02.json | V=25 | E=24 | SCC=19 | total=5461100 | Tarjan=2566700 | DAG=1166700 | SP=1152000 | dfsVisit=25 | dfsEdge=24 | qPush=19 | qPop=19 | relax=15 | CritPath=25
+data/large-03.json | V=50 | E=49 | SCC=50 | total=6110300 | Tarjan=5066600 | DAG=793200 | SP=1087600 | dfsVisit=50 | dfsEdge=49 | qPush=50 | qPop=50 | relax=98 | CritPath=49
