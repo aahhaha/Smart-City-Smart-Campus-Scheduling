@@ -74,12 +74,14 @@ Weights are uniformly distributed to simulate heterogeneous network latency.
 ## **4️⃣ Graphs and Performance Visualization**
 
 ### **Figure 1 — Execution Time per Algorithm vs Graph Size**
+
 ![Execution Time Graph](Figure_1.png)
 
 > *Tarjan dominates runtime for cyclic graphs, while Kahn and DAG-SP remain stable.  
 > Total runtime grows approximately linearly with |V|.*
 
 ### **Figure 2 — Critical Path Length vs Graph Size**
+
 ![Critical Path Graph](Figure_2.png)
 
 > *Critical path length increases with graph size and density, indicating deeper task dependencies and longer schedules.*
